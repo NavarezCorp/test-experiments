@@ -4,10 +4,31 @@
 }
 
 .tv-series .panel-body {
-    overflow-y: scroll;
-    height: 250px;
+    overflow-y: auto;
+    height: 366px;
+    padding: 0;
+}
+
+.tv-series .panel-body table tbody tr td {
+    padding-left: 30px;
+}
+
+.tv-series .panel-body table tbody tr td a {
+    cursor: pointer;
 }
 
 .tv-series-video-player {
     width: 800px;
+    border-color: transparent;
+}
+
+.tv-series-video-player .panel-heading {
+    border: 1px solid #428bca;
+}
+
+.tv-series-video-player .panel-body {
+    padding: 0;
+    width: 798px;
+    height: 449px;
+    background-color: #000;
 }

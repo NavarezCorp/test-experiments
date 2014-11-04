@@ -22,6 +22,7 @@ class AppAsset extends AssetBundle
         'css/tv-series.css',
     ];
     public $js = [
+        'js/tv-series.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
