@@ -43,6 +43,7 @@ AppAsset::register($this);
                         'items'=>[
                             ['label'=>'PSE', 'url'=>Yii::$app->urlManager->createUrl(['/pse'])],
                             ['label'=>'TV Series', 'url'=>Yii::$app->urlManager->createUrl(['/tv-series'])],
+                            ['label'=>'Movies', 'url'=>Yii::$app->urlManager->createUrl(['/movies'])],
                         ],
                     ] : '',
                     Yii::$app->user->isGuest ?
