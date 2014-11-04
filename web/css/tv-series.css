@@ -1,0 +1,13 @@
+.tv-series {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.tv-series .panel-body {
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.tv-series-video-player {
+    width: 800px;
+}
