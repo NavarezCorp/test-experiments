@@ -26,7 +26,7 @@ AppAsset::register($this);
     <div class="wrap">
         <?php
             NavBar::begin([
-                'brandLabel' => 'My Company',
+                'brandLabel' => Yii::$app->params['appName'],
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     'class' => 'navbar-inverse navbar-fixed-top',
@@ -42,6 +42,7 @@ AppAsset::register($this);
                         'label'=>'Settings',
                         'items'=>[
                             ['label'=>'PSE', 'url'=>Yii::$app->urlManager->createUrl(['/pse'])],
+                            ['label'=>'TV Series', 'url'=>Yii::$app->urlManager->createUrl(['/tv-series'])],
                         ],
                     ] : '',
                     Yii::$app->user->isGuest ?
@@ -64,7 +65,7 @@ AppAsset::register($this);
 
     <footer class="footer">
         <div class="container">
-            <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+            <p class="pull-left">&copy; <?= Yii::$app->params['companyName'] . ' ' . date('Y') ?></p>
             <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
     </footer>
