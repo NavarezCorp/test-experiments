@@ -93,6 +93,7 @@
                         <tr><td><a class="tv-series-item" title="The Originals - Season 2 Episode 3" path="the-originals/The.Originals.S02E03.HDTV.x264-LOL.mp4">Season 2 Episode 3</a></td></tr>
                         <tr><td><a class="tv-series-item" title="The Originals - Season 2 Episode 4" path="the-originals/The.Originals.S02E04.HDTV.x264-LOL.mp4">Season 2 Episode 4</a></td></tr>
                         <tr><td><a class="tv-series-item" title="The Originals - Season 2 Episode 5" path="the-originals/The.Originals.S02E05.HDTV.x264-LOL.mp4">Season 2 Episode 5</a></td></tr>
+                        <tr><td><a class="tv-series-item" title="The Originals - Season 2 Episode 6" path="the-originals/The.Originals.S02E06.HDTV.x264-LOL.mp4">Season 2 Episode 6</a></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -124,44 +125,6 @@
             </div>
         </div>
     </div>
-    <!--
-    <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFour">
-            <h4 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Harry Potter
-                </a>
-            </h4>
-        </div>
-        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-            <div class="panel-body">
-                <table class="table">
-                    <tbody>
-                        <tr><td><a class="tv-series-item" title="under development" path="">under development</a></td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFive">
-            <h4 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Lord of the Rings
-                </a>
-            </h4>
-        </div>
-        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-            <div class="panel-body">
-                <table class="table">
-                    <tbody>
-                    <tr><td><a class="tv-series-item" title="under development" path="">under development</a></td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    -->
 </div>
 
 <div class="panel panel-primary pull-left tv-series-video-player">

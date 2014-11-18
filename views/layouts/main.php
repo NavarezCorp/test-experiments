@@ -38,12 +38,18 @@ AppAsset::register($this);
                     ['label' => 'Home', 'url' => ['/site/index']],
                     ['label' => 'About', 'url' => ['/site/about']],
                     ['label' => 'Contact', 'url' => ['/site/contact']],
-                    !Yii::$app->user->isGuest ? [
-                        'label'=>'Settings',
+                    [
+                        'label'=>'Apps',
                         'items'=>[
                             ['label'=>'PSE', 'url'=>Yii::$app->urlManager->createUrl(['/pse'])],
                             ['label'=>'TV Series', 'url'=>Yii::$app->urlManager->createUrl(['/tv-series'])],
                             ['label'=>'Movies', 'url'=>Yii::$app->urlManager->createUrl(['/movies'])],
+                        ],
+                    ],
+                    !Yii::$app->user->isGuest ? [
+                        'label'=>'Settings',
+                        'items'=>[
+
                         ],
                     ] : '',
                     Yii::$app->user->isGuest ?
